@@ -24,3 +24,5 @@ INSERT INTO guestbook VALUES(seq_no.nextval, '이정재', 'password', 'content' 
 commit;
 
 rollback;
+
+alter table guestbook MODIFY (password VARCHAR2(20) not null);

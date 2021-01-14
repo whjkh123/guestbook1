@@ -20,7 +20,7 @@
 </head>
 <body>
 
-	<form action="./delete.jsp" method="get">
+	<form action="./delete.jsp" method="post">
 
 		비밀번호: <input type="password" name="password">
 		<button type="submit">확인</button>
